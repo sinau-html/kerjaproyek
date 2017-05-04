@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tutorial HTML</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="1.css">
+</head>
+<body>
+<div id="header">
+
+				<div class="top">
+
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title"><a href="index.html">Sinau HTML</a></h1>
+							<p>Situs Pembelajaran HTML</p>
+						</div>
+
+						<nav id="nav">
+							
+							<ul>
+								<li><a href="index.html#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Pengenalan</span></a></li>
+								<li><a href="sejarah.html" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Sejarah</span></a></li>
+								<li><a href="tutorial.html" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Tutorial</span></a></li>
+								<li><a href="index.html#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Tentang Situs</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+</div>
+
+<div id="main">
+	<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+							<h2>Entitas pada HTML</h2>	
+							</header>
+<hr>
+	<div class="left">
+	<p>karakter yang Menjadi Perintah HTML harus diganti dengan entitas karakter.
+
+Karakter yang tidak ada pada keyboard Anda juga dapat digantikan oleh entitas.</p> 
+	</div>
+	<hr>
+	<div class="left">
+	<h3>Entitas pada HTML</h3>
+	<p>Beberapa karakter telah menjadi bagian dari perintah dalam HTML.
+
+Jika Anda menggunakan kurang dari (<) atau lebih besar dari (>) tanda-tanda dalam teks Anda, browser mungkin campurkan dengan tag.
+
+entitas karakter yang digunakan untuk menampilkan karakter yang sudah menjadi bagian dari HTML.
+
+Sebuah entitas karakter terlihat seperti ini:</p>
+	<div class="w3-code notranslate htmlHigh">
+&amp;<i>entity_name</i>;
+<p>OR</p>
+&amp;#<i>entity_number</i>;
+<p>Untuk menampilkan tanda kurang dari (&lt;) kita harus menuliskan: <b>&amp;lt;</b> atau <b>&amp;#60;</b></p>
+</div>
+<hr>
+<br>
+<div class="left">
+<h2>Spasi Non-Breaking</h2>
+<p>Sebuah entitas karakter yang umum digunakan dalam HTML adalah spasi non-breaking: <strong>&amp;nbsp;</strong></p>
+<p>Sebuah spasi non-breaking adalah spasi yang tidak akan ganti ke baris baru.</p>
+<p>Dua kata yang dipisahkan oleh spasi non-breaking akan tetap bersama-sama (tidak ganti ke baris baru). Hal ini berguna saat kata mungkin mengganggu.</p>
+<p>Contoh:</p>
+<ul style="list-style-type:disc">
+ <li>§ 10</li>
+ <li>10 km/h</li>
+ <li>10 PM</li>
+</ul>
+<p>Penggunaan umum lain dari spasi non-breaking adalah untuk mencegah browser memotong ruang di halaman HTML.</p>
+
+</div>	
+<hr>
+<br>
+<div class="left">
+<h2>Beberapa kegunaan Entitas Karakter HTML Lainnya</h2>
+<table class="w3-table-all notranslate">
+    <tbody><tr>
+      <th>Hasil</th>
+      <th>Deskripsi</th>
+      <th>Nama Entitas</th>
+      <th>Nomor Entitas</th>
+    </tr>
+    <tr>
+      <td style="height: 29px"></td>
+      <td style="height: 29px">Spasi non-breaking</td>
+      <td style="height: 29px">&amp;nbsp;</td>
+      <td style="height: 29px">&amp;#160;</td>
+    </tr>
+    <tr>
+      <td>&lt;</td>
+      <td>kurang dari</td>
+      <td>&amp;lt;</td>
+      <td>&amp;#60;</td>
+    </tr>
+    <tr>
+      <td>&gt;</td>
+      <td>Lebih dari</td>
+      <td>&amp;gt;</td>
+      <td>&amp;#62;</td>
+    </tr>
+    <tr>
+      <td>&amp;</td>
+      <td>ampersand (dan)</td>
+      <td>&amp;amp;</td>
+      <td>&amp;#38;</td>
+    </tr>
+    <tr>
+      <td>"</td>
+      <td>dua petik </td>
+      <td>&amp;quot;</td>
+      <td>&amp;#34;</td>
+    </tr>
+    <tr>
+      <td>'</td>
+      <td>satu petik </td>
+      <td>&amp;apos;</td>
+      <td>&amp;#39;</td>
+    </tr>
+    <tr>
+      <td>¢</td>
+      <td>cent</td>
+      <td>&amp;cent;</td>
+      <td>&amp;#162;</td>
+    </tr>
+    <tr>
+      <td>£</td>
+      <td>pound</td>
+      <td>&amp;pound;</td>
+      <td>&amp;#163;</td>
+    </tr>
+    <tr>
+      <td>¥</td>
+      <td>yen</td>
+      <td>&amp;yen;</td>
+      <td>&amp;#165;</td>
+    </tr>
+    <tr>
+      <td>€</td>
+      <td>euro</td>
+      <td>&amp;euro;</td>
+      <td>&amp;#8364;</td>
+    </tr>
+    <tr>
+      <td>©</td>
+      <td>copyright</td>
+      <td>&amp;copy;</td>
+      <td>&amp;#169;</td>
+    </tr>
+    <tr>
+      <td>®</td>
+      <td>registered trademark</td>
+      <td>&amp;reg;</td>
+      <td>&amp;#174;</td>
+    </tr>
+    </tbody></table>
+</div>
+<hr>
+<br>
+<div class="left">
+<h3>Menggabungkan Beberapa tanda Diakritikal</h3>
+<p>
+Sebuah tanda diakritik adalah "glyph" yang ditambahkan ke huruf
+</p>
+<p>Beberapa tanda diakritik, seperti (&nbsp; ̀) dan (&nbsp; ́) disebut aksen. </p>
+<p>tanda diakritik dapat muncul baik di atas dan di bawah huruf, di dalam huruf, dan antara dua huruf.</p>
+<p>tanda diakritik dapat digunakan dalam kombinasi dengan karakter alfanumerik, untuk menghasilkan karakter yang tidak muncul dalam set karakter (encoding) yang digunakan dalam halaman.</p>
+<p>contoh:</P>
+<table class="w3-table-all notranslate">
+<tbody><tr>
+<th>Tanda</th>
+<th>Karakter</th>
+<th>Pendeklerasian</th>
+<th>Hasil</th>
+</tr>
+<tr>
+      <td>&nbsp;̀</td>
+      <td>a</td>
+      <td>a&amp;#768;</td>
+      <td>à</td>
+</tr>
+<tr>
+      <td>&nbsp;́</td>
+      <td>a</td>
+      <td>a&amp;#769;</td>
+      <td>á</td>
+</tr>
+<tr>
+      <td>̂</td>
+      <td>a</td>
+      <td>a&amp;#770;</td>
+      <td>â</td>
+</tr>
+<tr>
+      <td>&nbsp;̃</td>
+      <td>a</td>
+      <td>a&amp;#771;</td>
+      <td>ã</td>
+</tr>
+<tr>
+      <td>&nbsp;̀</td>
+      <td>O</td>
+      <td>O&amp;#768;</td>
+      <td>Ò</td>
+</tr>
+<tr>
+      <td>&nbsp;́</td>
+      <td>O</td>
+      <td>O&amp;#769;</td>
+      <td>Ó</td>
+</tr>
+<tr>
+      <td>̂</td>
+      <td>O</td>
+      <td>O&amp;#770;</td>
+      <td>Ô</td>
+</tr>
+<tr>
+      <td>&nbsp;̃</td>
+      <td>O</td>
+      <td>O&amp;#771;</td>
+      <td>Õ</td>
+</tr>
+</tbody></table>
+</div>
+
+	
+	
+						</div>
+            <div class="left">
+              <a href="filepath.html" class="tombol-kiri">Sebelumnya!</a>
+            </div>
+            <div class="right">
+            <a href="simbol.html" class="tombol-kanan">Selanjutnya!</a>
+          </div>
+	</section>
+</div>
+
+<div id="footer">
+
+					<ul class="copyright">
+						<li>&copy; Kerja Proyek XII TKJ 2. All rights reserved.</li>
+					</ul>
+
+</div>
+
+</body>
+</html>

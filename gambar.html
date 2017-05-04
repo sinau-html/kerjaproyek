@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gambar HTML</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+<div id="header">
+
+				<div class="top">
+
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title"><a href="index.html">Sinau HTML</a></h1>
+							<p>Situs Pembelajaran HTML</p>
+						</div>
+
+						<nav id="nav">
+							
+							<ul>
+								<li><a href="index.html#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Pengenalan</span></a></li>
+								<li><a href="sejarah.html" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Sejarah</span></a></li>
+								<li><a href="tutorial.html" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Tutorial</span></a></li>
+								<li><a href="index.html#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Tentang Situs</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+</div>
+
+<div id="main">
+	<section id="portfolio" class="two">
+						<div class="container">
+
+						<header>
+							<h2>Gambar HTML</h2>
+						</header>
+
+
+						<div class="w3-row">
+						<div class="w3-third w3-center">
+						<h2>Gambar JPG</h2>
+						<img alt="Mountain View" src="img/pic_mountain.jpg" class="w3-image">
+						</div>
+						<div class="w3-third w3-center">
+						<h2>Gambar GIF</h2>
+						<img alt="" src="img/html5.gif" class="w3-image">
+						</div>
+						<div class="w3-third w3-center">
+						<h2>Gambar PNG</h2>
+						<img alt="Graph" src="img/pic_graph.png" class="w3-image">
+						</div>
+						</div>
+
+						<div class="left">
+						<div class="w3-code notranslate htmlHigh">
+						<span style="color:brown"><span style="color:mediumblue">&lt;</span>!DOCTYPE<span style="color:red"> html</span><span style="color:mediumblue">&gt;</span></span><br>
+						<span style="color:brown"><span style="color:mediumblue">&lt;</span>html<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>body<span style="color:mediumblue">&gt;</span></span><br><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>h2<span style="color:mediumblue">&gt;</span></span>Spectacular Mountain<span style="color:brown"><span style="color:mediumblue">&lt;</span>/h2<span style="color:mediumblue">&gt;</span></span><br>
+						 <span style="color:brown"><span style="color:mediumblue">&lt;</span>img<span style="color:red"> src<span style="color:mediumblue">="pic_mountain.jpg"</span> 
+						alt<span style="color:mediumblue">="Mountain View"</span> style<span style="color:mediumblue">="width:304px;height:228px;"</span></span><span style="color:mediumblue">&gt;</span></span><br><br>
+						<span style="color:brown"><span style="color:mediumblue">&lt;</span>/body<span style="color:mediumblue">&gt;</span></span><br>
+						<span style="color:brown"><span style="color:mediumblue">&lt;</span>/html<span style="color:mediumblue">&gt;</span></span>
+						</div>
+						<a href="tryit-gambar1.html" class="tombol">Klik untuk mencoba!</a>
+						</div>
+						<hr>
+						<h3>Syntax Gambar</h3>
+						<p class="left">
+							Dalam HTML, gambar didefinisikan dengan tag &lt;img&gt;. Tag &lt;img&gt; kosong, hanya berisi atribut saja, dan tidak memiliki tag penutup. Atribut src menentukan URL (alamat web) gambar:
+						</p>
+						<div class="w3-code notranslate htmlHigh left">
+						<span style="color:brown"><span style="color:mediumblue">&lt;</span>img<span style="color:red"> src<span style="color:mediumblue">="<i>url</i>"</span> alt<span style="color:mediumblue">="<i>some_text</i>"</span> style<span style="color:mediumblue">="width:<em>width</em>;height:<em>height</em>;"</span></span><span style="color:mediumblue">&gt;</span></span>
+						</div>
+						<hr>
+						<h3>Atribut Alt</h3>
+						<p class="left">
+							Atribut alt menyediakan teks alternatif untuk gambar, jika pengguna karena beberapa alasan tidak dapat melihatnya (karena koneksi lambat, kesalahan pada atribut src, atau jika pengguna menggunakan pembaca layar). Jika browser tidak dapat menemukan gambar, maka akan muncul nilai atribut alt:
+						</p>
+						<div class="left">
+						<div class="w3-code notranslate htmlHigh">
+						<span style="color:brown"><span style="color:mediumblue">&lt;</span>img<span style="color:red"> src<span style="color:mediumblue">="wrongname.gif"</span> alt<span style="color:mediumblue">="HTML5 Icon"</span> style<span style="color:mediumblue">="width:128px;height:128px;"</span></span><span style="color:mediumblue">&gt;</span></span>
+						</div>
+						<a href="tryit-gambar2.html" class="tombol">Klik untuk mencoba!</a>
+						</div>
+						<hr>
+						<h3>Ukuran Gambar - Lebar(Width) dan Tinggi(Height)</h3>
+						<p class="left">
+							Anda dapat menggunakan atribut <b>style</b> untuk menentukan lebar dan tinggi gambar. Nilai ditentukan dalam piksel (gunakan px setelah nilainya):
+						</p>
+						<div class="left">
+							<div class="w3-code notranslate htmlHigh">
+							<span style="color:brown"><span style="color:mediumblue">&lt;</span>img<span style="color:red"> src<span style="color:mediumblue">="html5.gif"</span> alt<span style="color:mediumblue">="HTML5 Icon"</span> style<span style="color:mediumblue">="width:128px;height:128px;"</span></span><span style="color:mediumblue">&gt;</span></span>
+							</div>
+							<a href="tryit-gambar3.html" class="tombol">Klik untuk mencoba!</a>
+						</div>
+						<br>
+						<p class="left">
+							Sebagai alternatif, Anda bisa menggunakan atribut <b>width</b> dan <b>height</b>. Di sini, nilai ditentukan dalam piksel secara default:
+						</p>
+						<div class="left">
+							<div class="w3-code notranslate htmlHigh">
+							<span style="color:brown"><span style="color:mediumblue">&lt;</span>img<span style="color:red"> src<span style="color:mediumblue">="html5.gif"</span> alt<span style="color:mediumblue">="HTML5 Icon"</span> width<span style="color:mediumblue">="128"</span> height<span style="color:mediumblue">="128"</span></span><span style="color:mediumblue">&gt;</span></span>
+							</div>
+							<a href="tryit-gambar4.html" class="tombol">Klik untuk mencoba!</a>
+						</div>
+						<br>
+						<div class="w3-panel w3-note left">
+						<p><strong>Catatan:</strong> Selalu tentukan lebar dan tinggi gambar. Jika lebar dan tinggi tidak ditentukan, halaman akan berkedip saat gambar dimuat.</p>
+						</div>
+						<hr>
+						<h3>Width dan Height atau Style?</h3>
+						<p class="left">
+							Atribut width, height, dan style berlaku di HTML5. Namun, sebaiknya gunakan atribut style. Ini mencegah lembaran gaya internal atau eksternal mengubah ukuran gambar aslinya:
+						</p>
+						<div class="left">
+							<div class="w3-code notranslate htmlHigh">
+							 <span style="color:brown"><span style="color:mediumblue">&lt;</span>!DOCTYPE<span style="color:red"> html</span><span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>html<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>head<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>style<span style="color:mediumblue">&gt;</span></span><span style="color:brown"><br>img <span style="color:black">{</span><span style="color:red"> <br>&nbsp;&nbsp;&nbsp; width<span style="color:mediumblue"><span style="color:black">:</span>100%<span style="color:black">;</span></span> <br></span><span style="color:black">}</span><br>
+							 </span><span style="color:brown"><span style="color:mediumblue">&lt;</span>/style<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>/head<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>body<span style="color:mediumblue">&gt;</span></span><br><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>img<span style="color:red"> src<span style="color:mediumblue">="html5.gif"</span> alt<span style="color:mediumblue">="HTML5 Icon"</span> style<span style="color:mediumblue">="width:128px;height:128px;"</span></span><span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>img<span style="color:red"> src<span style="color:mediumblue">="html5.gif"</span> alt<span style="color:mediumblue">="HTML5 Icon"</span> width<span style="color:mediumblue">="128"</span> height<span style="color:mediumblue">="128"</span></span><span style="color:mediumblue">&gt;</span></span><br><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>/body<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>/html<span style="color:mediumblue">&gt;</span></span>
+							 </div>
+							 <a href="tryit-gambar5.html" class="tombol">Klik untuk mencoba!</a>
+						</div>
+						<br>
+						<div class="left">
+							<a href="link.html" class="tombol-kiri">Sebelumnya!</a>
+							</div>
+							<div class="right">
+							<a href="table.html" class="tombol-kanan">Selanjutnya!</a>
+						</div>
+
+	</section>					
+
+</div>
+
+<div id="footer">
+
+					<ul class="copyright">
+						<li>&copy; Kerja Proyek XII TKJ 2. All rights reserved.</li>
+					</ul>
+
+</div>
+
+</body>
+</html>

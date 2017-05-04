@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Atribut HTML</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="1.css">
+</head>
+<body>
+<div id="header">
+
+				<div class="top">
+
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title"><a href="index.html">Sinau HTML</a></h1>
+							<p>Situs Pembelajaran HTML</p>
+						</div>
+
+						<nav id="nav">
+							
+							<ul>
+								<li><a href="index.html#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Pengenalan</span></a></li>
+								<li><a href="sejarah.html" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Sejarah</span></a></li>
+								<li><a href="tutorial.html" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Tutorial</span></a></li>
+								<li><a href="index.html#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Tentang Situs</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+</div>
+
+<div id="main">
+	<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Atribut HTML</h2>
+							</header>
+
+							<p class="left">
+								Atribut memberikan informasi tambahan tentang elemen HTML.
+							</p>
+							<hr>
+							<h3>Atribut HTML</h3>
+							<p class="left">
+							- Semua elemen HTML dapat memiliki <b>atribut</b> <br>
+							- Atribut memberikan <b>informasi tambahan</b> tentang elemen <br>
+							- Atribut selalu ditentukan pada <b>tag pembuka</b> <br>
+							- Atribut biasanya datang dalam pasangan nama / nilai seperti: <b>nama = "nilai"</b> <br>
+							</p>
+							<hr>
+							<h3>Atribut lang</h3>
+							<p class="left">
+								Bahasa suatu dokumen dapat dinyatakan dalam tag &lt;html&gt;. <br>
+								Bahasa dinyatakan dengan atribut <strong>lang</strong>.<br>
+								Mendeklarasikan bahasa adalah penting untuk aplikasi aksesibilitas (pembaca layar) dan mesin pencari:
+							</p>
+
+							<div class="left">
+							<div class="w3-example">
+							<div class="w3-code notranslate htmlHigh">
+							<span style="color:brown"><span style="color:mediumblue">&lt;</span>
+							!DOCTYPE<span style="color:red"> html</span>
+							<span style="color:mediumblue">&gt;</span>
+							</span>
+							<br>
+							<span style="color:brown">
+							<span style="color:mediumblue">&lt;</span>html<span style="color:red"> lang<span style="color:mediumblue">="en-US"</span></span><span style="color:mediumblue">&gt;</span></span><br><span style="color:brown">
+							<span style="color:mediumblue">&lt;</span>body
+							<span style="color:mediumblue">&gt;</span></span><br><br>
+ 							...<br><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>/body<span>
+ 							</span>
+ 							</span>
+ 							</div></div>
+ 							</div>
+ 							<p class="left">
+ 								Dua huruf pertama menentukan bahasa yang digunakan yaitu bahasa inggris (en). Jika terdapat dialek, gunakan dua huruf lebih, contohnya Amerika Serikat (US).
+ 							</p>
+ 							<hr>
+ 							<h3>Atribut Title </h3>
+ 							<p class="left">Di sini, atribut <strong>title</strong> ditambahkan pada elemen &lt;p&lt;. Nilai dari atribut judul akan ditampilkan sebagai tooltip ketika Anda mengarahkan mouse ke atas suatu paragraf:</p>
+ 							<textarea rows="4" cols="30">
+<p title="Ini adalah Tooltip">
+Ini adalah paragraf.
+</p>
+							</textarea>
+							<br>
+							<a href="tryit7.html" class='tombol'>Klik untuk mencoba!</a>
+							<br>
+							<hr>
+							<h3>Atribut href</h3>
+							<p class="left">
+							Link HTML didefinisikan dengan tag &lt;a&gt;. Alamat link yang ditentukan dalam atribut href:</p>
+								<div class="left">
+								<div class="w3-code notranslate htmlHigh">
+								<span style="color:brown"><span style="color:mediumblue">&lt;</span>a<span style="color:red"> href
+								<span style="color:mediumblue">="http://www.google.com"</span></span><span style="color:mediumblue">&gt;
+								</span>
+								</span>Ini adalah link<span style="color:brown"><span style="color:mediumblue">&lt;</span>/a<span style="color:mediumblue">&gt;</span></span><br>
+								</div>
+								<a href="tryit4.html" class='tombol'>Klik untuk mencoba!</a>
+							</div>
+							<br>
+							<hr>
+							<h3>Atribut Size (ukuran gambar)</h3>
+							<p class="left">
+								Gambar pada HTML didefinisikan dengan tag &lt;img&gt;. Nama file dari sumber (src), dan ukuran gambar (lebar dan tinggi) semua disediakan sebagai atribut:
+							</p>
+							<div class="left">
+							<div class="w3-code notranslate htmlHigh">
+							<span style="color:brown"><span style="color:mediumblue">&lt;</span>img<span style="color:red"> src<span style="color:mediumblue">="img/smk.png"</span> width<span style="color:mediumblue">="250"</span> height<span style="color:mediumblue">="250"</span></span><span style="color:mediumblue">&gt;</span></span>
+							</div>
+							<a href="tryit5.html" class="tombol">Klik untuk mencoba!</a>
+							</div>
+							<br>
+							<p class="left">Ukuran gambar ditentukan dalam pixel: width = "250" berarti lebar gambar adalah 250 pixel.</p>
+							<hr>
+							<h3>Atribut Alt</h3>
+							<p class="left">
+								Atribut alt menetapkan teks alternatif yang akan digunakan, jika gambar tidak dapat ditampilkan.
+							</p>
+							<div class="left">
+							<div class="w3-code notranslate htmlHigh">
+ 							<span style="color:brown"><span style="color:mediumblue">&lt;</span>img<span style="color:red"> src
+ 							<span style="color:mediumblue">="img/smk.png"</span> alt<span style="color:mediumblue">="ini adalah logo smk 1 kedungwuni"</span> 
+ 							width<span style="color:mediumblue">="250"</span> height<span style="color:mediumblue">="250"</span></span><span style="color:mediumblue">&gt;</span></span>
+							</div>
+							<a href="tryit5.html" class="tombol">Klik untuk mencoba!</a>
+							</div>
+							<br>
+							<hr>
+							<h3>Atribut HTML</h3>
+							berikut ini adalah beberapa atribut yang sering digunakan pada HTML
+
+							<table class="w3-table-all notranslate">
+							<tbody><tr>
+							<th style="width:15%">Atribut</th>
+							<th>Deskripsi</th>
+							</tr>
+							<tr>
+							<td>alt</td>
+							<td>Menentukan teks alternatif yang akan digunakan, jika gambar tidak dapat ditampilkan.</td>
+							</tr>
+							<tr>
+							<td>disabled</td>
+							<td>Menentukan bahwa elemen input harus dinonaktifkan</td>
+							</tr>
+							<tr>
+							<td>href</td>
+							<td>Menentukan URL (Alamat web) untuk link</td>
+							</tr>
+							<tr>
+							<td>id</td>
+							<td>Menentukan ID link untuk elemen</td>
+							</tr>
+							<tr>
+							<td>src</td>
+							<td>Menentukan URL (Alamat web) untuk gambar</td>
+							</tr>
+							<tr>
+							<td>style</td>
+							<td>Menentukan style CSS inline untuk suatu elemen</td>
+							</tr>
+							<tr>
+							<td>title</td>
+							<td>MMenampilkan tool tip tentang informasi tambahan pada elemen</td>
+							</tr>
+							</tbody></table>
+
+							<div class="w3-clear">
+							<div class="left">
+							<a href="elemen.html" class="tombol-kiri">Sebelumnya!</a>
+							</div>
+							<div class="right">
+							<a href="heading.html" class="tombol-kanan">Selanjutnya!</a>
+							</div>
+							</div>
+
+						</div>	
+	</section>					
+</div>
+
+<div id="footer">
+
+					<ul class="copyright">
+						<li>&copy; Kerja Proyek XII TKJ 2. All rights reserved.</li>
+					</ul>
+
+</div>
+
+</body>
+</html>

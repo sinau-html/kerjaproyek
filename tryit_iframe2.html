@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Editor</title>
+	        <script type="text/javascript">
+            function runCode()
+            {
+                var content = document.getElementById('sourceCode').value;
+                var iframe = document.getElementById('targetCode');
+                iframe = (iframe.contentWindow) ? iframe.contentWindow : (iframe.contentDocument.document) ? iframe.contentDocument.document : iframe.contentDocument;
+                iframe.document.open();
+                iframe.document.write(content);
+                iframe.document.close();
+                return false;
+            }
+            runCode();
+        </script>
+    <link rel="stylesheet" type="text/css" href="1.css">
+
+</head>
+<body>
+<table width="100%" border="0" cellspacing="5" cellpadding="5">
+<tr>                
+	       		<td width="50%" scope="col">&nbsp;</td>               
+	       		<td width="50%" align="left" scope="col">           
+	       		</td>            
+	       		</tr>            
+	       		<tr>                
+	       		<td>                     
+	       		<form>                        
+	       		<strong>Kode</strong>                        
+	       		<textarea name="sourceCode" id="sourceCode">
+<!DOCTYPE html>
+
+<html>
+<body>
+
+<iframe src="index.html" style="border:none;"></iframe>
+
+</body>
+</html                        
+	       		</textarea>                    
+	       		</form>                
+	       		</td>                
+	       		<td><strong>Hasil</strong>
+	       		<iframe name="targetCode" id="targetCode"></iframe></td>
+	       		</tr>        
+	       		</table>  
+	       		<div class="center">
+	       		<input onclick="runCode();" type="button" class="tombol" value="Jalankan Kode!"> 
+	       		</div> 
+</body>
+</html>

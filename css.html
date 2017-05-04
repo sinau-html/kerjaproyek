@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS pada HTML</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+<div id="header">
+
+				<div class="top">
+
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title"><a href="index.html">Sinau HTML</a></h1>
+							<p>Situs Pembelajaran HTML</p>
+						</div>
+
+						<nav id="nav">
+							
+							<ul>
+								<li><a href="index.html#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Pengenalan</span></a></li>
+								<li><a href="sejarah.html" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Sejarah</span></a></li>
+								<li><a href="tutorial.html" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Tutorial</span></a></li>
+								<li><a href="index.html#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Tentang Situs</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+</div>
+
+<div id="main">
+	<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Membuat HTML menarik dengan CSS</h2>
+							</header>
+
+							<p class="left">
+								CSS adalah singkatan dari Cascading Style Sheets. CSS menjelaskan bagaimana elemen HTML yang akan ditampilkan pada layar, kertas, atau media lainnya. CSS menghemat banyak pekerjaan. CSS dapat mengontrol tata letak beberapa halaman web sekaligus. CSS dapat ditambahkan ke elemen HTML dalam 3 cara: <br>
+								1. <strong>Inline</strong> - dengan menggunakan atribut style dalam elemen HTML <br>
+								2. <strong>Internal</strong> - dengan menggunakan elemen &lt;style&gt; pada bagian  &lt;head&gt; <br>
+								3. <strong>External</strong> - dengan menggunakan file CSS eksternal <br>
+								Cara yang paling umum untuk menambahkan CSS, adalah untuk menyimpan style dalam file CSS yang terpisah. Namun, di sini kita akan menggunakan cara inline dan internal, karena ini lebih mudah untuk ditunjukkan, dan lebih mudah bagi Anda untuk mencoba sendiri.
+							</p>
+							<hr>
+							<h3>Inline CSS</h3>
+							<p class="left">
+								Sebuah inline CSS digunakan untuk menerapkan gaya unik untuk 1 elemen HTML. Sebuah inline CSS menggunakan atribut gaya elemen HTML. Contoh ini menetapkan warna teks elemen &lt;h1&gt; menjadi biru:
+							</p>
+							<div class="left">
+								<div class="w3-code notranslate htmlHigh">
+								 <span style="color:brown"><span style="color:mediumblue">&lt;</span>h1<span style="color:red"> style<span style="color:mediumblue">="color:blue;"</span></span><span style="color:mediumblue">&gt;</span></span>Ini adalah heading<span style="color:brown"><span style="color:mediumblue">&lt;</span>/h1<span style="color:mediumblue">&gt;</span></span>
+								</div>
+								<a href="tryit36.html" class="tombol">Klik untuk mencoba!</a>
+							</div>
+							<hr>
+							<h3>Internal CSS</h3>
+							<p class="left">
+								Sebuah CSS internal digunakan untuk menentukan gaya untuk halaman HTML. Sebuah CSS internal didefinisikan dalam &lt;head&gt; halaman HTML, dalam elemen &lt;style&gt;:
+							</p>
+							<div class="left">
+								<div class="w3-code notranslate htmlHigh">
+								<span style="color:brown"><span style="color:mediumblue">&lt;</span>!DOCTYPE<span style="color:red"> html</span><span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>html<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>head<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>style<span style="color:mediumblue">&gt;</span></span><span style="color:brown"><br>
+								 body <span style="color:black">{</span><span style="color:red">background-color<span style="color:mediumblue"><span style="color:black">:</span> powderblue<span style="color:black">;</span></span></span><span style="color:black">}</span><br>h1&nbsp;&nbsp; <span style="color:black">{</span><span style="color:red">color<span style="color:mediumblue"><span style="color:black">:</span> blue<span style="color:black">;</span></span></span><span style="color:black">}</span><br>p&nbsp;&nbsp;&nbsp; <span style="color:black">{</span><span style="color:red">color<span style="color:mediumblue"><span style="color:black">:</span> red<span style="color:black">;</span></span></span><span style="color:black">}</span><br>
+								</span><span style="color:brown"><span style="color:mediumblue">&lt;</span>/style<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>/head<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>body<span style="color:mediumblue">&gt;</span></span><br><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>h1<span style="color:mediumblue">&gt;</span></span>Ini adalah Heading<span style="color:brown"><span style="color:mediumblue">&lt;</span>/h1<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:mediumblue">&gt;</span></span>Ini adalah Paragraf.<span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span><br><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>/body<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>/html<span style="color:mediumblue">&gt;</span></span>
+								</div>
+								<a href="tryit37.html" class="tombol">Klik untuk mencoba!</a>
+							</div>
+							<hr>
+							<h3>External CSS</h3>
+							<p class="left">
+								CSS eksternal digunakan untuk menentukan gaya untuk banyak halaman HTML. <strong>Dengan CSS eksternal, Anda dapat mengubah tampilan seluruh situs web, HANYA dengan mengubah satu file!</strong> Untuk menggunakan CSS eksternal, tambahkan link ke dalam bagian &lt;head&gt; dari halaman HTML:
+							</p>
+							<div class="left">
+								<div class="w3-code notranslate htmlHigh">
+								<span style="color:brown"><span style="color:mediumblue">&lt;</span>!DOCTYPE<span style="color:red"> html</span><span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>html<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>head<span style="color:mediumblue">&gt;</span></span><br>
+								&nbsp; <span style="color:brown"><span style="color:mediumblue">&lt;</span>link<span style="color:red"> rel<span style="color:mediumblue">="stylesheet"</span> href<span style="color:mediumblue">="assets/css/styles.css"</span></span><span style="color:mediumblue">&gt;</span></span><br>
+								<span style="color:brown"><span style="color:mediumblue">&lt;</span>/head<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>body<span style="color:mediumblue">&gt;</span></span><br><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>h1<span style="color:mediumblue">&gt;</span></span>Ini adalah Heading<span style="color:brown"><span style="color:mediumblue">&lt;</span>/h1<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:mediumblue">&gt;</span></span>Ini adalah Paragraf.<span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span><br><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>/body<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>/html<span style="color:mediumblue">&gt;</span></span>
+								</div>
+								<a href="tryit38.html" class="tombol">Klik untuk mencoba!</a>
+							</div>
+							<p class="left">
+								CSS eksternal dapat ditulis dalam teks editor apapun. file tidak harus berisi kode HTML, dan harus disimpan dengan ekstensi .css. Berikut adalah isi dari "styles.css" :
+							</p>
+							<div class="w3-code notranslate cssHigh left"><span style="color:brown">
+ 							body <span style="color:black">{</span><span style="color:red"><br>&nbsp;&nbsp;&nbsp; background-color
+ 							<span style="color:mediumblue"><span style="color:black">:</span> powderblue<span style="color:black">;</span></span><br></span><span style="color:black">}</span><br>h1 <span style="color:black">{</span><span style="color:red"><br>&nbsp;&nbsp;&nbsp; color<span style="color:mediumblue"><span style="color:black">:</span> blue
+ 							<span style="color:black">;</span></span><br></span><span style="color:black">}</span><br>p 
+ 							<span style="color:black">{</span><span style="color:red"><br>&nbsp;&nbsp;&nbsp; color<span style="color:mediumblue"><span style="color:black">:</span> red<span style="color:black">;</span></span><br></span>
+ 							<span style="color:black">}</span></span>
+ 							</div>
+ 							<hr>
+ 							<h3>Font CSS</h3>
+ 							<p class="left">
+ 								Properti <strong>color</strong> pada CSS mendefinisikan warna teks yang akan digunakan. Properti CSS <strong>font-family</strong> mendefinisikan font yang akan digunakan. Properti CSS <strong>font-size</strong> mendefinisikan ukuran teks yang akan digunakan.
+ 							</p>
+ 							<div class="left">
+ 								<div class="w3-code notranslate htmlHigh">
+								<span style="color:brown"><span style="color:mediumblue">&lt;</span>!DOCTYPE<span style="color:red"> html</span><span style="color:mediumblue">&gt;</span></span><br>
+								 <span style="color:brown"><span style="color:mediumblue">&lt;</span>html<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>head<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>style<span style="color:mediumblue">&gt;</span></span><span style="color:brown"><br>h1 <span style="color:black">{</span><span style="color:red"><br>&nbsp;&nbsp;&nbsp; color<span style="color:mediumblue"><span style="color:black">:</span> blue<span style="color:black">;</span></span><br>&nbsp;&nbsp;&nbsp; 
+								 font-family<span style="color:mediumblue"><span style="color:black">:</span> verdana<span style="color:black">;</span></span><br>&nbsp;&nbsp;&nbsp; font-size<span style="color:mediumblue"><span style="color:black">:</span> 300%<span style="color:black">;</span></span><br></span><span style="color:black">}</span><br>p&nbsp; <span style="color:black">{</span><span style="color:red"><br>&nbsp;&nbsp;&nbsp; color<span style="color:mediumblue"><span style="color:black">:</span> red<span style="color:black">;</span></span><br>&nbsp;&nbsp;&nbsp; 
+								 font-family<span style="color:mediumblue"><span style="color:black">:</span> courier<span style="color:black">;</span></span><br>&nbsp;&nbsp;&nbsp; font-size<span style="color:mediumblue"><span style="color:black">:</span> 160%<span style="color:black">;</span></span><br></span><span style="color:black">}</span><br></span><span style="color:brown"><span style="color:mediumblue">&lt;</span>/style<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>/head<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>body<span style="color:mediumblue">&gt;</span></span><br><br>
+								 <span style="color:brown"><span style="color:mediumblue">&lt;</span>h1<span style="color:mediumblue">&gt;</span></span>Ini adalah Heading<span style="color:brown"><span style="color:mediumblue">&lt;</span>/h1<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:mediumblue">&gt;</span></span>Ini adalah paragraf.<span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span><br><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>/body<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>/html<span style="color:mediumblue">&gt;</span></span>
+								 </div>
+								 <a href="tryit39.html" class="tombol">Klik untuk mencoba!</a>
+ 							</div>
+ 							<hr>
+ 							<h3>Border CSS</h3>
+ 							<p class="left">
+ 								Properti <strong>border</strong> pada CSS mendefinisikan batas pada sekitar elemen HTML:
+ 							</p>
+ 							<div class="left">
+ 								<div class="w3-code notranslate cssHigh"><span style="color:brown">
+								 p <span style="color:black">{</span><span style="color:red"><br>&nbsp;&nbsp;&nbsp; border
+								 <span style="color:mediumblue"><span style="color:black">:</span> 1px 
+								solid powderblue<span style="color:black">;</span></span><br></span><span style="color:black">}</span><br>
+								</span>
+								</div>
+								<a href="tryit40.html" class="tombol">Klik untuk mencoba!</a>
+ 							</div>
+ 							<hr>
+ 							<h3>Padding CSS</h3>
+ 							<p class="left">
+ 								Properti CSS <strong>padding</strong> mendefinisikan padding (spasi) antara teks dan border:
+ 							</p>
+ 							<div class="left">
+ 								<div class="w3-code notranslate cssHigh"><span style="color:brown">
+								p <span style="color:black">{</span><span style="color:red"><br>&nbsp;&nbsp;&nbsp; border
+								<span style="color:mediumblue"><span style="color:black">:</span> 1px 
+								solid powderblue<span style="color:black">;</span></span><br>&nbsp;&nbsp;&nbsp; padding
+								<span style="color:mediumblue"><span style="color:black">:</span> 30px<span style="color:black">;</span></span><br></span><span style="color:black">}</span></span>
+								</div>
+								<a href="tryit41.html" class="tombol">Klik untuk mencoba!</a>
+ 							</div>
+ 							<hr>
+ 							<h3>Margin CSS</h3>
+ 							<p class="left">
+ 								Properti CSS <strong>margin</strong> mendefinisikan margin (ruang) di luar border:
+ 							</p>
+ 							<div class="left">
+ 								<div class="w3-code notranslate cssHigh"><span style="color:brown">
+								p <span style="color:black">{</span><span style="color:red"><br>&nbsp;&nbsp;&nbsp; border
+								<span style="color:mediumblue"><span style="color:black">:</span> 1px 
+								solid powderblue<span style="color:black">;</span></span><br>&nbsp;&nbsp;&nbsp; margin
+								<span style="color:mediumblue"><span style="color:black">:</span> 50px<span style="color:black">;</span></span><br>
+								 </span><span style="color:black">}</span></span>
+								 </div>
+								 <a href="tryit42.html" class="tombol">Klik untuk mencoba!</a>
+ 							</div>
+ 							<hr>
+ 							<h3>Atribut Id</h3>
+ 							<p class="left">
+ 								Untuk menentukan gaya tertentu untuk satu elemen khusus, tambahkan atribut id ke elemen:
+ 							</p>
+ 							<div class="left">
+ 								<div class="w3-code notranslate htmlHigh">
+								<span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:red"> id<span style="color:mediumblue">="p01"</span></span><span style="color:mediumblue">&gt;</span></span>Aku berbeda<span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span>
+								</div>
+ 							</div>
+ 							<p class="left">
+ 								Kemudian tentukan gaya untuk elemen dengan id tersebut:
+ 							</p>
+ 							<div class="left">
+ 								<div class="w3-code notranslate cssHigh"><span style="color:brown">
+ 								#p01 <span style="color:black">{</span><span style="color:red"><br>&nbsp;&nbsp;&nbsp; color
+ 								<span style="color:mediumblue"><span style="color:black">:</span> blue<span style="color:black">;</span></span><br></span><span style="color:black">}</span></span>
+ 								</div>
+ 								<a href="tryit43.html" class="tombol">Klik untuk mencoba!</a>
+ 							</div>
+ 							<br>
+ 							<div class="w3-panel w3-note left">
+							  <p><strong>Catatan:</strong> id dari elemen harus unik dalam sebuah halaman, sehingga pemilih id digunakan untuk memilih salah satu elemen yang unik!</p>
+							</div>
+							<hr>
+							<h3>Atribut Class</h3>
+							<p class="left">
+								Untuk menentukan gaya untuk jenis khusus dari elemen, tambahkan atribut class untuk elemen:
+							</p>
+							<div class="left">
+								<div class="w3-code notranslate htmlHigh">
+								<span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:red"> class<span style="color:mediumblue">="error"</span></span><span style="color:mediumblue">&gt;</span></span>Aku berbeda<span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span>
+								</div>
+								<p>
+									kemudian tentukan gaya untuk elemen dengan class khusus:
+								</p>
+								<div class="w3-code notranslate cssHigh">
+								<span style="color:brown">p.error <span style="color:black">{</span><span style="color:red"><br>&nbsp;&nbsp;&nbsp; color<span style="color:mediumblue"><span style="color:black">:</span> red<span style="color:black">;</span></span><br></span><span style="color:black">}</span></span>
+								</div>
+								<a href="tryit44.html" class="tombol">Klik untuk mencoba!</a>
+							</div>
+							<hr>
+							<h3>Referensi External</h3>
+							<p class="left">
+								CSS external bisa direferensikan dengan full URL atau dengan path yang sesuai dengan halaman web tersebut. Ini adalah contoh penggunaan full URL :
+							</p>
+							<div class="left">
+								<div class="w3-code notranslate htmlHigh">
+								<span style="color:brown"><span style="color:mediumblue">&lt;</span>link<span style="color:red"> rel<span style="color:mediumblue">="stylesheet"</span> href<span style="color:mediumblue">="http://www.w3schools.com/html/styles.css"</span></span><span style="color:mediumblue">&gt;</span></span>
+								</div>
+								<p>
+									Contoh ini link ke CSS yang terletak di folder html di situs web saat ini:
+								</p>
+								<div class="w3-code notranslate htmlHigh">
+								<span style="color:brown"><span style="color:mediumblue">&lt;</span>link<span style="color:red"> rel<span style="color:mediumblue">="stylesheet"</span> href<span style="color:mediumblue">="/html/styles.css"</span></span><span style="color:mediumblue">&gt;</span></span>
+								</div>
+								<p>
+									Contoh ini link ke CSS yang terletak di folder yang sama dengan halaman web saat ini:	
+								</p>
+								<div class="w3-code notranslate htmlHigh">
+								<span style="color:brown"><span style="color:mediumblue">&lt;</span>link<span style="color:red"> rel<span style="color:mediumblue">="stylesheet"</span> href<span style="color:mediumblue">="styles.css"</span></span><span style="color:mediumblue">&gt;</span></span>
+								</div>
+							</div>
+							<br>
+
+							<div class="left">
+							<a href="warna.html" class="tombol-kiri">Sebelumnya!</a>
+							</div>
+							<div class="right">
+							<a href="link.html" class="tombol-kanan">Selanjutnya!</a>
+							</div>
+
+						</div>
+	</section>
+
+</div>
+
+<div id="footer">
+
+					<ul class="copyright">
+						<li>&copy; Kerja Proyek XII TKJ 2. All rights reserved.</li>
+					</ul>
+
+</div>
+
+</body>
+</html>

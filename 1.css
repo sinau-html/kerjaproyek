@@ -1,0 +1,68 @@
+.left    { text-align: left;}
+.right   { text-align: right;}
+.center  { text-align: center;}
+.justify { text-align: justify;}
+.tombol{
+  background:#2C97DF;
+  color:white;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:5px solid #2A80B9;
+  padding:10px 20px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:11pt;
+}
+textarea, iframe {
+	border: 2px solid #ddd;       
+	height: 500px;       
+	width: 100%; 
+}
+.w3-panel:after;
+.w3-panel{padding:0.01em 16px;margin-top:16px!important;margin-bottom:16px!important}
+.w3-note{background-color:#ffffcc;border-left:6px solid #ffeb3b}
+.w3-code,.w3-codespan{font-family:Consolas,"courier new";font-size:16px}
+.w3-code{line-height:1.4;width:auto;background-color:#fff;padding:8px 12px;border-left:4px solid #4CAF50;word-wrap:break-word}
+.w3-codespan{color:crimson;background-color:#f1f1f1;padding-left:4px;padding-right:4px;font-size:110%}
+.w3-example,.w3-code{margin:20px 0}.w3-card{border:1px solid #ccc}
+.w3-clear:after;
+.tombol-kanan{
+  float:right;
+  background:#2C97DF;
+  color:white;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:5px solid #2A80B9;
+  padding:10px 20px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:11pt;
+}
+.tombol-kiri{
+  float:left;
+  background:#2C97DF;
+  color:white;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:5px solid #2A80B9;
+  padding:10px 20px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:11pt;
+}
+.w3-table,.w3-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}
+.w3-table-all{border:1px solid #ccc}
+.w3-bordered tr,.w3-table-all tr{border-bottom:1px solid #ddd}
+.w3-striped tbody tr:nth-child(even){background-color:#f1f1f1}
+.w3-table-all tr:nth-child(odd){background-color:#fff}
+.w3-table-all tr:nth-child(even){background-color:#f1f1f1}
+.w3-table-all td,.w3-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
+.w3-table-all th:first-child,.w3-table-all td:first-child{padding-left:16px}
+table.w3-table-all{margin:20px 0}
+.w3-white,.w3-hover-white:hover{color:#000!important;background-color:#fff!important}
+.w3-row:after,.w3-row:before{content:"";display:table;clear:both}
+.w3-third{float:left;width:100%;width:33.33333%;padding:0 8px}
+.w3-center{text-align:center!important;display:inline-block;width:auto;}

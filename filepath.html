@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filepath HTML</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="1.css">
+</head>
+<body>
+<div id="header">
+
+				<div class="top">
+
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title"><a href="index.html">Sinau HTML</a></h1>
+							<p>Situs Pembelajaran HTML</p>
+						</div>
+
+						<nav id="nav">
+							
+							<ul>
+								<li><a href="index.html#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Pengenalan</span></a></li>
+								<li><a href="sejarah.html" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Sejarah</span></a></li>
+								<li><a href="tutorial.html" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Tutorial</span></a></li>
+								<li><a href="index.html#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Tentang Situs</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+</div>
+
+<div id="main">
+	<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+							<h2>File path (letak file) Pada HTML</h2>	
+							</header>
+<hr>
+<br>
+	<div class="left">
+<table class="w3-table-all">
+<tbody><tr><th>Lokasi</th><th>Deskripsi</th></tr>
+<tr>
+<td>&lt;img src="picture.jpg"&gt;</td>
+<td>picture.jpg terletak di folder yang sama dengan halaman saat ini</td>
+</tr>
+<tr>
+<td>&lt;img src="images/picture.jpg"&gt;</td>
+<td>picture.jpg terletak di dalam folder image yang terletak di folder saat ini</td>
+</tr>
+<tr>
+<td>&lt;img src="/images/picture.jpg"&gt;</td>
+<td>picture.jpg terletak di folder image yang terletak pada root web saat ini</td>
+</tr>
+<tr>
+<td>&lt;img src="../picture.jpg"&gt;</td>
+<td>picture.jpg terletak di folder satu tingkat dari folder saat ini</td>
+</tr>
+</tbody>
+<table>
+	</div>
+	<hr>
+	<br>
+<div class="left">
+<h3>File path (lokasi file) pada HTML</h3>
+<p>	Sebuah path file menjelaskan lokasi file dalam struktur folder situs Web.
+path file digunakan saat menghubungkan ke file eksternal seperti:
+</p>
+<ul style="list-style-type:disc">
+<li>Gambar</li>
+<li>Halaman web</li>
+<li>Style sheet</li>
+<li>Javascript</li>
+</ul>		
+</div>
+<hr>
+<br>
+
+<div class="left">
+<h3>Absolute file path</h3>
+<p>Absolut file path adalah URL lengkap yang menuju ke file internet</p>
+
+	<h3>Contoh</h3>
+	<div class="w3-code notranslate htmlHigh">
+		<span style="color:brown"><span style="color:mediumblue">&lt;</span>img<span style="color:red"> src<span style="color:mediumblue">="https://www.w3schools.com/images/picture.jpg"</span> 
+  		alt<span style="color:mediumblue">="Mountain"</span></span><span style="color:mediumblue">&gt;</span></span>
+	</div>
+	<a href="tryit_filepath1.html" class='tombol'>Klik untuk mencoba!</a>
+</div>
+<hr>
+<br>
+<div class="left">
+	<h3>Relative path file</h3>
+	<p>Sebuah Relative path file mengarahkan ke file pada halaman saat ini. Pada contoh kali ini file path mengarahkan file didalam folder image yang terletak pada root web saat ini
+	</p>
+	<div class="w3-example">
+	<h3>Contoh</h3>
+	<div class="w3-code notranslate htmlHigh">
+	<span style="color:brown"><span style="color:mediumblue">&lt;</span>img<span style="color:red"> src<span style="color:mediumblue">="images/picture.jpg"</span> 
+	alt<span style="color:mediumblue">="Mountain"</span></span><span style="color:mediumblue">&gt;</span></span>
+	</div>
+<p>
+<a href="tryit_filepath2.html" class='tombol'>Klik untuk mencoba!</a>
+</div>
+			<div class="left">
+					<a href="iframes.html" class="tombol-kiri">Sebelumnya!</a>
+				</div>
+				<div class="right">
+					<a href="entitas.html" class="tombol-kanan">Selanjutnya!</a>
+				</div>
+	</section>
+</div>
+
+<div id="footer">
+
+					<ul class="copyright">
+						<li>&copy; Kerja Proyek XII TKJ 2. All rights reserved.</li>
+					</ul>
+
+</div>
+
+</body>
+</html>

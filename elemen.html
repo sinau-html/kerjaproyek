@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Elemen HTML</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="1.css">
+</head>
+<body>
+<div id="header">
+
+				<div class="top">
+
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title"><a href="index.html">Sinau HTML</a></h1>
+							<p>Situs Pembelajaran HTML</p>
+						</div>
+
+						<nav id="nav">
+							
+							<ul>
+								<li><a href="index.html#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Pengenalan</span></a></li>
+								<li><a href="sejarah.html" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Sejarah</span></a></li>
+								<li><a href="tutorial.html" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Tutorial</span></a></li>
+								<li><a href="index.html#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Tentang Situs</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+</div>
+
+<div id="main">
+			<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Elemen HTML</h2>
+							</header>
+
+							<p class="left">Elemen pada HTML sering tedapat <strong>Tag Pembuka</strong> dan <strong>Tag Penutup</strong>, dengan konten yang diselipkan di dalam kedua tag tersebut. Contohnya : <br>
+							&lt;tag pembuka&gt; Isi konten &lt;/ tag penutup&gt; </p>
+							<p class="left">Elemen HTML adalah <strong>semua</strong> yang terdapat pada tag pembuka sampai tag penutup.
+							</p>
+							<div class="w3-panel w3-note">
+							<p>Elemen HTML yang tidak terdapat konten di dalamnya disebut elemen kosong (empty elements). Elemen kosong tidak memiliki tag penutup, seperti elemen &lt;br&gt; (yang berguna untuk mengganti baris).</p>
+							</div>
+							<hr>
+							<br>
+							<h2>HTML Bersarang</h2>
+							<br>
+							<p class="left">Di dalam elemen HTML, elemen bisa disarangkan (dalam suatu elemen terdapat elemen lainnya). 
+							Semua dokumen HTML terdapat elemen yang disarangkan (nested elements). Dalam contoh berikut ini, terdapat empat elemen HTML.</p>
+							<div class="center">
+							<textarea rows="4" cols="50">
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Ini adalah Heading</h1>
+<p>Ini adalah Paragraf.</p>
+</body>
+</html>
+							</textarea>
+							<br>
+							<a href="tryit1.html" class='tombol'>Klik untuk mencoba!</a>
+							</div>
+							<br>
+							<h3 class="left">Penjelasan</h3>
+							<div class="w3-note w3-panel">
+							<p class="left">
+							Tag <strong>&lt;html&gt;</strong> mendefinisikan seluruh dokumen html. Di dalamnya terdapat tag <strong>pembuka</strong> berupa <strong>&lt;html&gt;</strong> dan tag <strong>penutup</strong> berupa &lt;/html&gt;. Tag <strong>&lt;body&gt;</strong> mendefinisikan tubuh dari dokumen html. Di dalamnya terdapat tag <strong>pembuka</strong> berupa &lt;body&gt; dan tag <strong>penutup</strong> &lt;/body&gt;. Di dalam contoh di atas juga terdapat 2 elemen html lainnya yaitu &lt;h1&gt; dan &lt;p&gt;. Penjelasan dari dua elemen html tersebut ada di bawah ini.
+							</p>
+							</div>
+
+							<div class="w3-example">
+								<div class="w3-code notranslate htmlHigh">
+								<span style="color:brown">
+								<span style="color:mediumblue">&lt;</span>h1<span style="color:mediumblue">&gt;</span></span>Ini adalah Heading
+								<span style="color:brown"><span style="color:mediumblue">&lt;</span>/h1<span style="color:mediumblue">&gt;
+								</span>
+								</span>
+								</div>
+							</div>
+
+							<div class="w3-note w3-panel">
+							<p class="left">
+							Tag <strong>&lt;h1&gt;</strong> mendefinisikan <b>heading</b>. Di dalamnya terdapat tag <strong>pembuka</strong> berupa <strong>&lt;h1&gt;</strong> dan tag <strong>penutup</strong> berupa &lt;/h1&gt; . Konten dari elemen tersebut adalah <b>"Ini adalah Heading"</b>
+							</p>
+							</div>
+
+							<div class="w3-example">
+								<div class="w3-code notranslate htmlHigh">
+								<span style="color:brown">
+								<span style="color:mediumblue">&lt;</span>p<span style="color:mediumblue">&gt;</span></span>Ini adalah Paragraf
+								<span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;
+								</span>
+								</span>
+								</div>
+							</div>
+
+							<div class="w3-note w3-panel">
+							<p class="left">
+							Tag <strong>&lt;h1&gt;</strong> mendefinisikan <b>paragraf</b>. Di dalamnya terdapat tag <strong>pembuka</strong> berupa <strong>&lt;p&gt;</strong> dan tag <strong>penutup</strong> berupa &lt;/p&gt; . Konten dari elemen tersebut adalah <b>"Ini adalah Paragraf"</b>
+							</p>
+							</div>
+							<hr>
+							<br>
+							<h2>Jangan Pernah Lupa Menulis Tag Penutup</h2>
+							<p class="left">
+								Beberapa elemen HTML akan tetap muncul dengan baik meskipun anda lupa menulis tag penutupnya. Contoh di bawah ini akan berjalan di semua browser, karena tag penutup bersifat <strong>opsional</strong>.<br>
+								<strong>Jangan pernah lakukan hal ini! Karena akan membuat hasil koding tidak sesuai keinginan dan dapat menimbulkan error!</strong>
+							</p>
+							<div class="center">
+							<textarea rows="4" cols="50">
+<!DOCTYPE html>
+<html>
+<body>
+<p>Ini paragraf
+<p>Ini juga paragraf
+</body>
+</html>
+							</textarea>
+							<br>
+							<a href="tryit6.html" class='tombol'>Klik untuk mencoba!</a>
+							</div>
+							<br>
+							<hr>
+							<h2>Elemen HTML Kosong</h2>
+							<p class="left">
+								Elemen HTML tanpa konten disebut dengan Elemen Kosong. Contohnya adalah tag &lt;br&gt; yang tidak membutuhkan tag penutup. Elemen kosong bisa "ditutup" pada tag pembuka, contohnya : &lt;br /&gt;. HTML5 tidak mewajibkan elemen kosong untuk diberi tag penutup. Tapi jika anda ingin validasi yang ketat dan ingin dokumen anda bisa dibaca oleh XML parsers, anda harus menutup semua elemen HTML pada dokumen anda.
+							</p>
+							<br>
+							<hr>
+							<br>
+							<h2>Tulis Tag dengan Huruf Kecil</h2>
+							<p class="left">
+								Tag HTML tidak case sensitive, artinya tidak membedakan penggunaan huruf besar dan kecil. &lt;P&gt; (dengan huruf besar) sama artinya dengan &lt;p&gt;. <br>
+								Standar HTML5 tidak mewajibkan penggunaan huruf kecil, namun W3C <strong>MEREKOMENDASIKAN</strong> huruf kecil pada HTML, dan <strong>MEMBUTUHKAN</strong> huruf kecil pada tipe dokumen yang lebih ketat seperti XHTML.
+							</p>
+							<br>
+							<div class="w3-clear">
+							<div class="left">
+							<a href="tutorial.html" class="tombol-kiri">Sebelumnya!</a>
+							</div>
+							<div class="right">
+							<a href="atribut.html" class="tombol-kanan">Selanjutnya!</a>
+							</div>
+							</div>
+						</div>
+			</section>
+</div>
+
+<div id="footer">
+
+					<ul class="copyright">
+						<li>&copy; Kerja Proyek XII TKJ 2. All rights reserved.</li>
+					</ul>
+
+</div>
+
+</body>
+</html>

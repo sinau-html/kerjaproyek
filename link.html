@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Link HTML</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+<div id="header">
+
+				<div class="top">
+
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title"><a href="index.html">Sinau HTML</a></h1>
+							<p>Situs Pembelajaran HTML</p>
+						</div>
+
+						<nav id="nav">
+							
+							<ul>
+								<li><a href="index.html#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Pengenalan</span></a></li>
+								<li><a href="sejarah.html" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Sejarah</span></a></li>
+								<li><a href="tutorial.html" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Tutorial</span></a></li>
+								<li><a href="index.html#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Tentang Situs</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+</div>
+
+<div id="main">
+	<section id="portfolio" class="two">
+						<div class="container">
+
+						<header>
+							<h2>Link HTML</h2>
+						</header>
+
+						<p class="left">
+							Link  ditemukan di hampir semua halaman web. Link memungkinkan pengguna untuk mengunjungi dari halaman ke halaman lainnya.
+						</p>
+						<hr>
+						<h3>Link HTML - Hyperlink</h3>
+						<p class="left">
+							Link HTML adalah hyperlink. Anda dapat mengklik link dan melompat ke dokumen lain. Bila Anda memindahkan mouse di atas link, panah mouse akan berubah menjadi tangan kecil.
+						</p>
+						<div class="w3-panel w3-note left">
+  							<p><strong>Catatan:</strong> Sebuah link tidak harus berupa teks. Hal ini dapat gambar atau elemen lain HTML.</p>
+						</div>
+						<hr>
+						<h3>Link HTML - Sintaks</h3>
+						<p class="left">
+							Pada HTML, link didefinisikan dengan tag &lt;a&gt; :
+						</p>
+						<div class="w3-code notranslate htmlHigh left">
+						<span style="color:brown"><span style="color:mediumblue">&lt;</span>a<span style="color:red"> href<span style="color:mediumblue">="<i>url</i>"</span></span><span style="color:mediumblue">&gt;</span></span><i>Teks Link</i><span style="color:brown"><span style="color:mediumblue">&lt;</span>/a<span style="color:mediumblue">&gt;</span></span>
+						</div>
+						<div class="left">
+							<div class="w3-code notranslate htmlHigh">
+							<span style="color:brown"><span style="color:mediumblue">&lt;</span>a<span style="color:red"> href<span style="color:mediumblue">="http://www.google.com/html/"</span></span><span style="color:mediumblue">&gt;</span></span>Kunjungi Google.com !<span style="color:brown"><span style="color:mediumblue">&lt;</span>/a<span style="color:mediumblue">&gt;</span></span>
+							</div>
+							<a href="tryit45.html" class="tombol">Klik untuk mencoba!</a>
+						</div>
+						<p class="left">
+							Atribut <strong>href</strong> men-spesifikasikan alamat tujuan dari link (www.google.com). <br> 
+							<strong>link teks</strong> menetapkan bagian yang terlihat pada browser (Kunjungi Google.com !). Mengklik pada tulisan link akan membawa anda ke halaman web tujuan.
+						</p>
+						<div class="w3-panel w3-note left">
+						<p><strong>Catatan:</strong> Tanpa garis miring pada alamat subfolder, Anda mungkin akan menghasilkan dua permintaan ke server. Banyak server secara otomatis akan menambahkan garis miring ke alamat, dan kemudian membuat permintaan baru.</p>
+						</div>
+						<hr>
+						<h3>Link Lokal</h3>
+						<p class="left">
+							Contoh di atas menggunakan URL absolut (sebuah alamat web penuh). Sebuah link lokal (link ke situs web yang sama) ditentukan dengan URL relatif (tanpa http: // www ....).
+						</p>
+						<div class="w3-code notranslate htmlHigh left">
+						<span style="color:brown"><span style="color:mediumblue">&lt;</span>a<span style="color:red"> href<span style="color:mediumblue">="html_images.asp"</span></span><span style="color:mediumblue">&gt;</span></span>Gambar HTML<span style="color:brown"><span style="color:mediumblue">&lt;</span>/a<span style="color:mediumblue">&gt;</span></span>
+						</div>
+						<hr>
+						<h3>Link HTML Warna</h3>
+						<p class="left">
+							Secara default, link akan muncul seperti ini (di semua browser):<br>
+							1. Link yang belum dikunjungi adalah digarisbawahi dan berwarna biru <br>
+							2. Link yang sedang dikunjungi adalah digarisbawahi dan berwarna ungu <br>
+							3. Link yang aktif akan digarisbawahi dan berwarna merah <br>
+							Anda bisa mengubah warna default dengan contoh dibawah ini :
+						</p>
+						<div class="left">
+							<div class="w3-code notranslate cssHigh"><span style="color:brown">
+							&lt;style&gt;<br>a:link&nbsp;&nbsp;&nbsp; <span style="color:black">{</span><span style="color:red">color<span style="color:mediumblue"><span style="color:black">:</span>green<span style="color:black">;</span></span> background-color<span style="color:mediumblue"><span style="color:black">:</span>transparent<span style="color:black">;</span></span> 
+							 text-decoration<span style="color:mediumblue"><span style="color:black">:</span>none</span></span><span style="color:black">}</span><br>
+							a:visited <span style="color:black">{</span><span style="color:red">color<span style="color:mediumblue"><span style="color:black">:</span>pink<span style="color:black">;</span></span> background-color<span style="color:mediumblue"><span style="color:black">:</span>transparent<span style="color:black">;</span></span> text-decoration<span style="color:mediumblue"><span style="color:black">:</span>none</span></span><span style="color:black">}</span><br>a:hover&nbsp;&nbsp; 
+							<span style="color:black">{</span><span style="color:red">color<span style="color:mediumblue"><span style="color:black">:</span>red<span style="color:black">;</span></span> background-color<span style="color:mediumblue"><span style="color:black">:</span>transparent<span style="color:black">;</span></span> text-decoration<span style="color:mediumblue"><span style="color:black">:</span>underline</span></span><span style="color:black">}</span><br>a:active&nbsp; 
+							<span style="color:black">{</span><span style="color:red">color<span style="color:mediumblue"><span style="color:black">:</span>yellow<span style="color:black">;</span></span> background-color<span style="color:mediumblue"><span style="color:black">:</span>transparent<span style="color:black">;</span></span> text-decoration<span style="color:mediumblue"><span style="color:black">:</span>underline</span></span><span style="color:black">}</span><br>&lt;/style&gt;
+							</span>
+							</div>
+							<a href="tryit46.html" class="tombol">Klik untuk mencoba!</a>
+						</div>
+						<hr>
+						<h3>Link HTML - Atribut Target</h3>
+						<p class="left">
+							Atribut target menentukan di mana untuk membuka link dokumen. Atribut target dapat memiliki salah satu dari nilai berikut:<br>
+							1. _blank : Membuka link dokumen pada tab baru. <br>
+							2. _self : Membuka link dokumen di jendela / tab yang sama seperti yang diklik (ini adalah default) <br>
+							3. _parent : Membuka dokumen terkait dalam kerangka induk <br>
+							4. _top : Membuka dokumen terkait dalam tubuh penuh jendela <br>
+							5.framename : Membuka dokumen terkait dalam bingkai bernama <br>
+							Contoh di bawah ini akan membuka link dokumen pada tab baru di browser.
+						</p>
+						<div class="left">
+							<div class="w3-code notranslate htmlHigh">
+ 							<span style="color:brown"><span style="color:mediumblue">&lt;</span>a<span style="color:red"> href<span style="color:mediumblue">="http://www.google.com/"</span>
+							target<span style="color:mediumblue">="_blank"</span></span><span style="color:mediumblue">&gt;</span></span>Kunjungi situs google!<span style="color:brown"><span style="color:mediumblue">&lt;</span>/a<span style="color:mediumblue">&gt;</span></span>
+							</div>
+							<a href="tryit47.html" class="tombol">Klik untuk mencoba!</a>
+						</div>
+						<br>
+						<hr>
+						<h3>Link HTML - Gambar sebagai Link</h3>
+						<p class="left">
+							Contoh di bawah ini akan menunjukkan gambar sebagai link.
+						</p>
+						<div class="left">
+							<div class="w3-code notranslate htmlHigh">
+							<span style="color:brown"><span style="color:mediumblue">&lt;</span>a<span style="color:red"> href<span style="color:mediumblue">="http://www.smk1kedungwuni.sch.id"</span></span><span style="color:mediumblue">&gt;</span></span><br>&nbsp; <span style="color:brown"><span style="color:mediumblue">&lt;</span>img<span style="color:red"> src<span style="color:mediumblue">="img/smk.png"</span> alt<span style="color:mediumblue">="Logo SMK"</span> style<span style="color:mediumblue">="width:42px;height:42px;border:0;"</span></span><span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>/a<span style="color:mediumblue">&gt;</span></span>
+							</div>
+							<a href="tryit48.html" class="tombol">Klik untuk mencoba!</a>
+						</div>
+						<br>
+						<div class="w3-panel w3-note left">
+						<p><strong>Catatan:</strong> border: 0; ditambahkan untuk mencegah IE9 (dan sebelumnya) dari menampilkan border di sekitar gambar (ketika gambar menjadi sebuah link).</p>
+						</div>
+						<br>
+						<hr>
+						<h3>Membuat Sebuah Bookmark</h3>
+						<p class="left">
+							Bookmark HTML digunakan untuk memungkinkan pembaca untuk melompat ke bagian tertentu dari halaman Web. Bookmark dapat berguna jika halaman Web Anda sangat panjang. Untuk membuat bookmark, Anda harus terlebih dahulu membuat bookmark, dan kemudian menambahkan link untuk itu. Ketika link diklik, halaman akan bergulir ke lokasi yang telah diberi bookmark atau penunjuk tersebut.
+						</p>
+						<h3 class="left">Contoh</h3>
+						<p class="left">
+							Pertama, buatlah bookmark dengan atribut id:
+						</p>
+						<div class="w3-code notranslate htmlHigh left">
+						<span style="color:brown"><span style="color:mediumblue">&lt;</span>h2<span style="color:red"> id<span style="color:mediumblue">="penting"</span></span><span style="color:mediumblue">&gt;</span></span>Bagian Penting <span style="color:brown"><span style="color:mediumblue">&lt;</span>/h2<span style="color:mediumblue">&gt;</span></span>
+						</div>
+						<p class="left">Kemudian, tambahkan link ke bookmark ("Bagian Penting"), dari dalam halaman yang sama:</p>
+						<div class="w3-code notranslate htmlHigh left">
+ 						<span style="color:brown"><span style="color:mediumblue">&lt;</span>a<span style="color:red"> href<span style="color:mediumblue">="#penting"</span></span><span style="color:mediumblue">&gt;</span></span>Lihat Bagian Penting!<span style="color:brown"><span style="color:mediumblue">&lt;</span>/a<span style="color:mediumblue">&gt;</span></span>
+						</div>
+						<p class="left">Atau, tambahkan link ke bookmark ("Bagian Penting"), dari halaman lain:</p>
+						<div class="left">
+						<div class="w3-code notranslate htmlHigh">
+						<span style="color:brown"><span style="color:mediumblue">&lt;</span>a<span style="color:red"> href<span style="color:mediumblue">="html_tips.html#penting"</span></span><span style="color:mediumblue">&gt;</span></span>Lihat Bagian Penting!<span style="color:brown"><span style="color:mediumblue">&lt;</span>/a<span style="color:mediumblue">&gt;</span></span><br>
+						</div>
+						<a href="tryit49.html" class="tombol">Klik untuk mencoba!</a>
+						</div>
+						<hr>
+						<br>
+						<h3>External Path</h3>
+						<p class="left">
+							Halaman eksternal dapat dirujuk dengan URL penuh atau dengan path relatif ke halaman web saat ini. Contoh ini menggunakan URL lengkap untuk link ke halaman web:
+						</p>
+						<div class="left">
+							<div class="w3-code notranslate htmlHigh">
+  							<span style="color:brown"><span style="color:mediumblue">&lt;</span>a<span style="color:red"> href<span style="color:mediumblue">="http://www.w3schools.com/html/default.asp"</span></span><span style="color:mediumblue">&gt;</span></span>HTML tutorial<span style="color:brown"><span style="color:mediumblue">&lt;</span>/a<span style="color:mediumblue">&gt;</span></span>
+  							</div>
+  							<a href="tryit50.html" class="tombol">Klik untuk mencoba!</a>
+						</div>
+						<br>
+						<p class="left">
+							Contoh ini link ke halaman yang terletak di folder html di situs web saat ini:
+						</p>
+						<div class="left">
+							<div class="w3-code notranslate htmlHigh">
+  							<span style="color:brown"><span style="color:mediumblue">&lt;</span>a<span style="color:red"> href<span style="color:mediumblue">="/html/default.asp"</span></span><span style="color:mediumblue">&gt;</span></span>HTML tutorial<span style="color:brown"><span style="color:mediumblue">&lt;</span>/a<span style="color:mediumblue">&gt;</span></span>
+  							</div>
+						</div>
+						<p class="left">
+							Contoh ini link ke halaman yang terletak di folder yang sama dengan halaman saat ini:
+						</p>
+						<div class="left">
+							<div class="w3-code notranslate htmlHigh">
+  							<span style="color:brown"><span style="color:mediumblue">&lt;</span>a<span style="color:red"> href<span style="color:mediumblue">="default.asp"</span></span><span style="color:mediumblue">&gt;</span></span>HTML tutorial<span style="color:brown"><span style="color:mediumblue">&lt;</span>/a<span style="color:mediumblue">&gt;</span></span></div>
+						</div>
+
+						<div class="left">
+							<a href="css.html" class="tombol-kiri">Sebelumnya!</a>
+							</div>
+							<div class="right">
+							<a href="gambar.html" class="tombol-kanan">Selanjutnya!</a>
+							</div>
+
+						</div>
+
+	</section>
+
+</div>
+
+<div id="footer">
+
+					<ul class="copyright">
+						<li>&copy; Kerja Proyek XII TKJ 2. All rights reserved.</li>
+					</ul>
+
+</div>
+
+</body>
+</html>
